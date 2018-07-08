@@ -53,8 +53,8 @@ var inMemoryStorage = new builder.MemoryBotStorage();
 
 // Create chat bot
 var connector = new builder.ChatConnector({
-    appId: process.env.MICROSOFT_APP_ID,
-    appPassword: process.env.MICROSOFT_APP_PASSWORD
+    appId: "243d796c-2ed2-4ceb-a3e4-8c210a195945",
+    appPassword: "pyvfHVX5|=+tqeSUXK2385^"
 });
 
 var bot = new builder.UniversalBot(connector).set('storage', inMemoryStorage); // Register in memory storage;

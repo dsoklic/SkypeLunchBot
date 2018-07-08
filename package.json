@@ -1,0 +1,29 @@
+{
+  "name": "skypelunchbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsoklic/SkypeLunchBot.git"
+  },
+  "keywords": [
+    "skype",
+    "lunch",
+    "bot"
+  ],
+  "author": "Domen Soklic",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dsoklic/SkypeLunchBot/issues"
+  },
+  "homepage": "https://github.com/dsoklic/SkypeLunchBot#readme",
+  "dependencies": {
+    "botbuilder": "^3.15.0",
+    "node-cron": "^1.2.1",
+    "restify": "^7.2.1"
+  }
+}
